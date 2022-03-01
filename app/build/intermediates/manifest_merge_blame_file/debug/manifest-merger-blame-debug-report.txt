@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    @author Lars Harmsen
+4    Copyright (c) <2014> <Lars Harmsen - Quchen>
+5-->
+6<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+7    package="com.quchen.flappycow"
+8    android:versionCode="31"
+9    android:versionName="3.4.0" >
+10
+11    <uses-sdk
+12        android:minSdkVersion="15"
+12-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml
+13        android:targetSdkVersion="32" />
+13-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml
+14
+15    <!-- Remove the following permissions, if you don't want ads -->
+16    <!-- Used to request banner and interstitial ads. -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:12:9-71
+17-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:12:26-68
+18    <!-- Used to avoid sending an ad request if there is no connectivity. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:14:9-83
+19-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:14:26-80
+20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Remove the lines above, if you don't want ads -->
+20-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/admin/.gradle/caches/transforms-3/4ff961043003f272fcb51103b3e22e76/transformed/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
+20-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/admin/.gradle/caches/transforms-3/4ff961043003f272fcb51103b3e22e76/transformed/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:22-65
+21    <application
+21-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:17:5-75:19
+22        android:allowBackup="true"
+22-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:18:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /Users/admin/.gradle/caches/transforms-3/c8ba9c87079632ae301244b41716c32d/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:19:9-43
+26        android:label="@string/app_name"
+26-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:20:9-41
+27        android:supportsRtl="true"
+27-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:21:9-35
+28        android:testOnly="true"
+29        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+29-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:22:9-67
+30
+31        <!-- For Google Play Services -->
+32        <meta-data
+32-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:25:9-104
+33            android:name="com.google.android.gms.games.APP_ID"
+33-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:25:20-70
+34            android:value="@string/app_id" />
+34-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:25:71-101
+35        <meta-data
+35-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:26:9-133
+36            android:name="com.google.android.gms.ads.APPLICATION_ID"
+36-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:26:20-76
+37            android:value="ca-app-pub-5615758120938208~8730683579" />
+37-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:26:77-131
+38
+39        <activity
+39-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:28:9-37:20
+40            android:name="com.quchen.flappycow.MainActivity"
+40-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:30:13-41
+41            android:exported="true"
+41-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:29:13-36
+42            android:label="@string/app_name"
+42-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:31:13-45
+43            android:screenOrientation="portrait" >
+43-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:32:13-49
+44            <intent-filter>
+44-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:33:13-36:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:34:17-69
+45-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:34:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:35:17-77
+47-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:35:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:39:9-49:20
+51            android:name="com.quchen.flappycow.Game"
+51-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:41:13-33
+52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+52-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:43:13-186
+53            android:exported="true"
+53-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:40:13-36
+54            android:label="@string/app_name"
+54-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:42:13-45
+55            android:screenOrientation="portrait" >
+55-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:44:13-49
+56            <intent-filter>
+56-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:45:13-48:29
+57                <action android:name="com.quchen.flappycow.Game" />
+57-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:46:17-68
+57-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:46:25-65
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:47:17-76
+59-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:47:27-73
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:51:9-60:20
+63            android:name="com.quchen.flappycow.About"
+63-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:53:13-34
+64            android:exported="true"
+64-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:52:13-36
+65            android:label="@string/app_name"
+65-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:54:13-45
+66            android:screenOrientation="portrait" >
+66-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:55:13-49
+67            <intent-filter>
+67-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:56:13-59:29
+68                <action android:name="com.quchen.flappycow.About" />
+68-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:57:17-69
+68-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:57:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:47:17-76
+70-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:47:27-73
+71            </intent-filter>
+72        </activity>
+73
+74        <!-- Remove the lines below, if you don't want ads -->
+75        <meta-data
+75-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:63:13-64:72
+76            android:name="com.google.android.gms.version"
+76-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:63:24-69
+77            android:value="@integer/google_play_services_version" />
+77-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:64:17-70
+78
+79        <activity
+79-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:65:13-67:128
+80            android:name="com.google.android.gms.ads.AdActivity"
+80-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:66:17-69
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+81-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:67:17-126
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:32:13-37
+83            android:theme="@android:style/Theme.Translucent" />
+83-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:33:13-61
+84        <activity
+84-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:69:13-72:80
+85            android:name="com.sec.android.ad.AdActivity"
+85-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:71:17-61
+86            android:configChanges="keyboardHidden|orientation|screenSize"
+86-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:72:17-78
+87            android:exported="true" />
+87-->/Users/admin/StudioProjects/FlappyCow/app/src/main/AndroidManifest.xml:70:17-40
+88        <!-- Remove the lines above, if you don't want ads -->
+89
+90        <meta-data
+90-->[:BaseGameUtils] /Users/admin/StudioProjects/FlappyCow/BaseGameUtils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-29:36
+91            android:name="unityplayer.ForwardNativeEventsToDalvik"
+91-->[:BaseGameUtils] /Users/admin/StudioProjects/FlappyCow/BaseGameUtils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-67
+92            android:value="true" />
+92-->[:BaseGameUtils] /Users/admin/StudioProjects/FlappyCow/BaseGameUtils/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-33
+93
+94        <provider
+94-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:35:9-39:39
+95            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+95-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:36:13-76
+96            android:authorities="com.quchen.flappycow.mobileadsinitprovider"
+96-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:37:13-73
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:38:13-37
+98            android:initOrder="100" />
+98-->[com.google.android.gms:play-services-ads-lite:18.3.0] /Users/admin/.gradle/caches/transforms-3/ffa1cecb5148a4ccf8f73c2269909cec/transformed/jetified-play-services-ads-lite-18.3.0/AndroidManifest.xml:39:13-36
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-3/9e88c4b093e3d99ecda26fff5270dfa8/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-3/9e88c4b093e3d99ecda26fff5270dfa8/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-3/9e88c4b093e3d99ecda26fff5270dfa8/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-3/9e88c4b093e3d99ecda26fff5270dfa8/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+104    </application>
+105
+106</manifest>

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_about.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/about.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_silver.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/silver.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_achievement_button.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/achievement_button.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_signinout.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/signinout.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_bronce.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/bronce.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_accessory_sunglasses.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/accessory_sunglasses.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_log_full.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/log_full.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-hdpi_brownbutton.xml.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-hdpi/brownbutton.xml"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_cow.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/cow.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_accessory_sir.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/accessory_sir.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_splash.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/splash.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_accessory_scumbag.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/accessory_scumbag.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/layout_about.xml.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_coin.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/coin.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_ic_launcher.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_nyan_cat.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/nyan_cat.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_fg.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/fg.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/raw_cow.wav.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/raw/cow.wav"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_bg.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/bg.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_gold.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/gold.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_rainbow.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/rainbow.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_tutorial.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/tutorial.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_toast.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/toast.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-hdpi_greybutton.xml.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-hdpi/greybutton.xml"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/raw_crash.wav.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/raw/crash.wav"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_pause_button.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/pause_button.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_socket.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/socket.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/raw_coin.ogg.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/raw/coin.ogg"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/raw_pass.ogg.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/raw/pass.ogg"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_play_button.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/play_button.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_highscore_button.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/highscore_button.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_speaker.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/speaker.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/drawable-nodpi_spider_full.png.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/drawable-nodpi/spider_full.png"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/layout_gameover.xml.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/layout/gameover.xml"
+    },
+    {
+        "merged": "/Users/admin/StudioProjects/FlappyCow/app/build/intermediates/merged_res/debug/raw_nyan_cat_theme.mp3.flat",
+        "source": "/Users/admin/StudioProjects/FlappyCow/app/src/main/res/raw/nyan_cat_theme.mp3"
+    }
+]

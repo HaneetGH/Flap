@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+string app_misconfigured
+string gamehelper_app_misconfigured
+string gamehelper_license_failed
+string gamehelper_sign_in_failed
+string gamehelper_unknown_error
+string license_failed
+string sign_in_failed
+string unknown_error
